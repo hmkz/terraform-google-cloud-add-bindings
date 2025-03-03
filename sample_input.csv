@@ -1,0 +1,12 @@
+user,ancestor_path,name,asset_type,role
+user1@example.com,my-project-123,//cloudresourcemanager.googleapis.com/projects/my-project-123,cloudresourcemanager.googleapis.com/Project,roles/viewer
+user1@example.com,my-project-123,//storage.googleapis.com/projects/_/buckets/my-bucket,storage.googleapis.com/Bucket,roles/storage.objectViewer
+user2@example.com,my-project-123,//bigquery.googleapis.com/projects/my-project-123/datasets/my_dataset,bigquery.googleapis.com/Dataset,roles/bigquery.dataViewer
+user3@example.com,my-project-456,//cloudresourcemanager.googleapis.com/projects/my-project-456,cloudresourcemanager.googleapis.com/Project,roles/editor
+user4@example.com,my-org-123,//cloudresourcemanager.googleapis.com/organizations/12345678,cloudresourcemanager.googleapis.com/Organization,roles/resourcemanager.organizationViewer
+user4@example.com,my-org-123,//cloudresourcemanager.googleapis.com/folders/98765432,cloudresourcemanager.googleapis.com/Folder,roles/resourcemanager.folderViewer
+service-account@my-project-123.iam.gserviceaccount.com,my-project-123,//artifactregistry.googleapis.com/projects/my-project-123/locations/us-central1/repositories/my-repo,artifactregistry.googleapis.com/Repository,roles/artifactregistry.reader
+devops@example.com,my-project-123,//container.googleapis.com/projects/my-project-123/locations/us-central1/clusters/my-cluster,container.googleapis.com/Cluster,roles/container.developer
+user5@example.com,my-project-123,//iam.googleapis.com/projects/my-project-123/serviceAccounts/service-account@my-project-123.iam.gserviceaccount.com,iam.googleapis.com/ServiceAccount,roles/iam.serviceAccountUser
+admin@example.com,my-project-123,//iam.googleapis.com/projects/my-project-123/roles/customRole,iam.googleapis.com/Role,roles/iam.roleViewer
+admin@example.com,my-org-123,//orgpolicy.googleapis.com/projects/my-project-123/policies/compute.disableSerialPortAccess,orgpolicy.googleapis.com/Policy,roles/orgpolicy.policyViewer 
